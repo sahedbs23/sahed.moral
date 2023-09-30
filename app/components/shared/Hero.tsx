@@ -3,29 +3,29 @@ import {RoughNotationGroup } from "react-rough-notation";
 import RainbowHighlight from "@/app/components/shared/RainbowHighlight";
 import userData from "@/app/dataSource/data";
 import Image from "next/image";
-import {colors} from "@/app/configs/constants";
+import {COLORS} from "@/app/configs/constants";
 
  const Hero: React.FC = () =>  {
   return (
     <div className="flex flex-row justify-center items-start overflow-hidden">
       <div className="w-full md:w-1/2 mx-auto text-center md:text-left lg:p-20">
         <RoughNotationGroup show={true}>
-          <RainbowHighlight color={colors[0]}>
+          <RainbowHighlight color={COLORS[0]}>
             <h1 className="text-4xl md:text-8xl font-bold text-gray-700 dark:text-gray-200 my-2">
               Developer.
             </h1>
           </RainbowHighlight>
-          <RainbowHighlight color={colors[1]}>
+          <RainbowHighlight color={COLORS[1]}>
             <h1 className="text-4xl md:text-8xl font-bold text-gray-700 dark:text-gray-200 my-2">
               Designer.
             </h1>
           </RainbowHighlight>
-          <RainbowHighlight color={colors[2]}>
+          <RainbowHighlight color={COLORS[2]}>
             <h1 className="text-4xl md:text-8xl font-bold text-gray-700 dark:text-gray-200 my-2">
               Programmer.
             </h1>
           </RainbowHighlight>
-          <RainbowHighlight color={colors[3]}>
+          <RainbowHighlight color={COLORS[3]}>
             <h1 className="text-4xl md:text-8xl font-bold text-gray-700 dark:text-gray-200 my-2">
               Youtuber.
             </h1>

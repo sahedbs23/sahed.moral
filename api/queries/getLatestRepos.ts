@@ -15,6 +15,5 @@ export default async function getLatestRepos(data: UserModelInterface, token: st
     let repos = res.data.items;
     // console.log("LATEST 6 repos", latestSixRepos);
     return repos.splice(0, 6);
-
 }
 

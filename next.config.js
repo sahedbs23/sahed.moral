@@ -1,6 +1,9 @@
 /** @type {import('next').NextConfig} */
+const  path = require('path');
 const nextConfig = {
-    pageExtensions:['tsx','js','ts'],
+    sassOptions:{
+        includePaths: [path.join(__dirname, 'styles')]
+    },
     images: {
         remotePatterns: [
             {
@@ -8,6 +11,12 @@ const nextConfig = {
                 hostname: 'raw.githubusercontent.com',
                 port: '',
                 pathname: '/github/**'
+            },
+            {
+                protocol: 'https',
+                hostname: 'images.unsplash.com',
+                port: '',
+                pathname: '/**'
             }
         ]
     }

@@ -10,22 +10,22 @@ import {COLORS} from "@/configs/constants";
     <div className="flex flex-row justify-center items-start overflow-hidden">
       <div className="w-full md:w-1/2 mx-auto text-center md:text-left lg:p-20">
         <RoughNotationGroup show={true}>
-          <RainbowHighlight color={COLORS[0]}>
+          <RainbowHighlight color={COLORS.YELLOW}>
             <h1 className="text-4xl md:text-8xl font-bold text-gray-700 dark:text-gray-200 my-2">
               Developer.
             </h1>
           </RainbowHighlight>
-          <RainbowHighlight color={COLORS[1]}>
+          <RainbowHighlight color={COLORS.LEMON_LIME}>
             <h1 className="text-4xl md:text-8xl font-bold text-gray-700 dark:text-gray-200 my-2">
               Designer.
             </h1>
           </RainbowHighlight>
-          <RainbowHighlight color={COLORS[2]}>
+          <RainbowHighlight color={COLORS.GREEN}>
             <h1 className="text-4xl md:text-8xl font-bold text-gray-700 dark:text-gray-200 my-2">
               Programmer.
             </h1>
           </RainbowHighlight>
-          <RainbowHighlight color={COLORS[3]}>
+          <RainbowHighlight color={COLORS.BLUE_BERRY}>
             <h1 className="text-4xl md:text-8xl font-bold text-gray-700 dark:text-gray-200 my-2">
               Youtuber.
             </h1>
@@ -35,7 +35,7 @@ import {COLORS} from "@/configs/constants";
       {/* Image container */}
       <div className="hidden lg:block relative w-full md:w-1/2 -mr-40 mt-20">
         <div className="w-3/4 ">
-          <Image src={USERDATA.avatarUrl} alt="avatar" className=" shadow" width="300" height="300"/>
+          <Image src={USERDATA.avatarUrl} alt="avatar" className=" shadow" width="500" height="400"/>
           <div className="flex flex-row justify-between mt-4">
             <div className="flex flex-row space-x-4">
               <svg

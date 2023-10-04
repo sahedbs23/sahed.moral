@@ -3,7 +3,6 @@ import {USERDATA} from "@/dataSource/data";
 import GithubRepoCard from "@/components/shared/GithubRepoCard";
 const LatestCode:React.FC<{repositories:GitHubRepositoryInterface[]}> = ({repositories}) => {
   const [repos] = useState(repositories);
-  console.log("repo",repos);
 
   return (
     <section className="bg-[#F1F1F1] -mt-40 dark:bg-gray-900 pb-40">

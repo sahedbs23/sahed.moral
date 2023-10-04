@@ -1,6 +1,6 @@
 "use client"
 
-import "@/styles/globals.css"
+import "@/styles/globals.scss"
 import {ThemeProvider} from "next-themes";
 import {AppProps} from "next/app";
 

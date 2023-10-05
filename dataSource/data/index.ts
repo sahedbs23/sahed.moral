@@ -78,17 +78,7 @@ export const PROJECTS: ProjectInterface[] = [
         title: "Playground",
         link: "https://play.placeholdertech.in",
         imgUrl: "/playground.png",
-    },
-    {
-        title: "Feedmeback",
-        link: "https://feedmeback.vercel.app",
-        imgUrl: "/feedmeback.png",
-    },
-    {
-        title: "Devmedium",
-        link: "https://devmedium.vercel.app",
-        imgUrl: "/devmedium.png",
-    },
+    }
 ];
 
 export const ABOUT_ME: AboutMeInterface = {

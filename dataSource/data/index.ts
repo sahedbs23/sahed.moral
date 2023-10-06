@@ -3,6 +3,7 @@ import {ExperienceInterface} from "@/components/shared/ExperienceCard";
 import ProjectInterface from "@/interfaces/ProjectInterface";
 import AboutMeInterface from "@/interfaces/AboutMeInterface";
 import SocialLinksInterface from "@/interfaces/SocialLinksInterface";
+import ProjectCardInterface from "@/interfaces/ProjectCardInterface";
 
 export const experiences: ExperienceInterface[] = [
     {
@@ -48,36 +49,47 @@ export const experiences: ExperienceInterface[] = [
         desc: "Subjects being PCM - I barely survived with 93.6% marks aggregate. Flex fridays, fellas.",
     },
 ];
-export const PROJECTS: ProjectInterface[] = [
+export const PROJECTS: ProjectCardInterface[] = [
     {
-        title: "Tailwind Master Kit",
-        link: "https://tailwindmasterkit.com",
-        imgUrl: "/tmk.jpg",
+        title: "Banglalink Telecommunication",
+        link: "https://banglalink.net/en",
+        imgUrl: "/banglalink.png",
+        technologies:[
+            "PHP", "Laravel", "Oracle","React", "Redux",
+            "REST APIs", "Blade", "Eloquent","AWS",
+        ]
     },
     {
-        title: "PlaceholderTech",
-        link: "https://placeholdertech.in",
-        imgUrl: "/placeholdertech.png",
+        title: "Fosoli",
+        link: "https://play.google.com/store/apps/details?id=bd.gov.dgfood.fps&hl=en&gl=US&pli=1",
+        imgUrl: "/fosholi.jpeg",
+        technologies:[
+            "PHP", "Laravel", "PostgresSQL","React", "Redux",
+            "Jenkins", "Memcached", "RabbitMQ","AWS",
+        ]
     },
     {
-        title: "Portfolio",
-        link: "https://manuarora.in",
-        imgUrl: "/portfolio.png",
+        title: "Abbvie Pro",
+        link: "https://www.abbviepro.com/",
+        imgUrl: "/abbvie-pro.png",
+        technologies:[
+            "PHP","Moodle", "MySQL",
+            "Node.js", "OAuth 2.0", "Brightcove"
+        ]
     },
     {
-        title: "CovidRescue",
-        link: "https://covidrescue.co.in",
-        imgUrl: "/covidrescue.png",
+        title: "RS LMS",
+        link: "https://rs.no/kurs",
+        imgUrl: "/rs-lms.png",
+        technologies:[
+            "PHP","Moodle", "MariaDB", "SAML2.0", "Azure VM", "Azure DevOps",
+        ]
     },
     {
-        title: "Algochurn",
-        link: "https://algochurn.com",
-        imgUrl: "/algochurn.png",
-    },
-    {
-        title: "Playground",
-        link: "https://play.placeholdertech.in",
-        imgUrl: "/playground.png",
+        title: "Grameenphone VTS",
+        link: "https://vts.grameenphone.com/",
+        imgUrl: "/gp-vts.png",
+        technologies:["PHP","Symfony", "Oracle", "Redis", "Angular", "Git"]
     }
 ];
 

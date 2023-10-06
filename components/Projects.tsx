@@ -4,7 +4,7 @@ import ProjectCard from "@/components/shared/ProjectCard";
 import FeaturedProject from "@/components/shared/FeaturedProject";
 
 const Projects = () => {
-    const features:string[]  = ["Lead Backend Development", "Performance Optimization", "Database Design", "Team Collaboration", "PR Review"];
+    const features:string[]  = ["Leading Backend Development", "Performance Optimization", "Database Design", "Team Collaboration", "PR Review"];
 
     const achievements:string[]  = ["Added support for new payment methods, resulting in 15% increase in annual revenue",
         "Developed REST APIs in a distributed setup, Optimized API performance through strategic caching",
@@ -14,18 +14,21 @@ const Projects = () => {
     const technologies:string[]  = ["PHP", "Laravel", "Symfony", "Node.JS", "Next.JS", "Aurora MySQL", "Redis", "ElasticSearch",
         "Docker", "AWS S3", "PayPal", "Adyen"];
     return (
-        <section className="bg-white">
+        <section>
+            <div className="text-center pt-16 pb-8 text-[22px] leading-[24px] font-normal text-black uppercase">
+            <h1 className="py-4">Highlighted Project</h1>
+            <h2>Milestone Moments: A Project That Ignited My Pride</h2>
+            </div>
+
             <section className="bg-[#f9f9f9]">
-                <div className="w-full flex flex-col items-center text-center py-12">
+                <div className="w-full flex flex-col items-center text-center py-4">
                     <h1 className={`text-4xl leading-[60px]`}>
                         <a href="https://www.123rf.com" className="underline">
                             123RF
                         </a>
                     </h1>
-                    <h2 className="text-[22px] leading-[24px] font-normal text-black uppercase">
-                        Milestone Moments: A Project That Ignited My Pride
-                    </h2>
-                    <h2 className="text-black text-center text-[14px] uppercase">
+
+                    <h2 className="text-black text-center text-xl uppercase">
                         A stock photo agency with 28 Million customers
                     </h2>
                     <div className="w-full flex flex-col gap-5 m-10">
@@ -33,7 +36,7 @@ const Projects = () => {
                             <>
                                 <h2 className="text-black text-center text-[14px] uppercase">
                                     <span className="pb-2 border-b border-black border-dashed">
-                                        My Roles and Responsibilities
+                                        Roles and Responsibilities
                                     </span>
                                 </h2>
                                 <ul className="list-disc pl-4 mt-4">
@@ -84,14 +87,16 @@ const Projects = () => {
                     </div>
                 </div>
             </section>
-            <h2 className="text-center py-8">Featured Projects</h2>
-            {PROJECTS.map((proj, idx) => (
-                <ProjectCard
-                    key={idx}
-                    number={idx + 1}
-                    {...proj}
-                />
-            ))}
+            <h2 className="text-center py-8 uppercase my-8">Featured Projects</h2>
+            <ul className="flex flex-col  gap-8 items-center justify-center mx-32 list-none">
+                {PROJECTS.map((proj, idx) => (
+                    <ProjectCard
+                        key={idx}
+                        {...proj}
+                    />
+                ))}
+            </ul>
+
         </section>
     );
 }

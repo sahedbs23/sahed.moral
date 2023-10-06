@@ -52,6 +52,7 @@ export const experiences: ExperienceInterface[] = [
 export const PROJECTS: ProjectCardInterface[] = [
     {
         title: "Banglalink Telecommunication",
+        description: "Banglalink Telecommunication",
         link: "https://banglalink.net/en",
         imgUrl: "/banglalink.png",
         technologies:[
@@ -61,6 +62,7 @@ export const PROJECTS: ProjectCardInterface[] = [
     },
     {
         title: "Fosoli",
+        description: "Fosoli",
         link: "https://play.google.com/store/apps/details?id=bd.gov.dgfood.fps&hl=en&gl=US&pli=1",
         imgUrl: "/fosholi.jpeg",
         technologies:[
@@ -70,6 +72,7 @@ export const PROJECTS: ProjectCardInterface[] = [
     },
     {
         title: "Abbvie Pro",
+        description: "Abbvie Pro",
         link: "https://www.abbviepro.com/",
         imgUrl: "/abbvie-pro.png",
         technologies:[
@@ -79,6 +82,7 @@ export const PROJECTS: ProjectCardInterface[] = [
     },
     {
         title: "RS LMS",
+        description: "RS is a voluntary, humanitarian member organisation, work to make it safer to travel on and by the sea",
         link: "https://rs.no/kurs",
         imgUrl: "/rs-lms.png",
         technologies:[
@@ -87,6 +91,7 @@ export const PROJECTS: ProjectCardInterface[] = [
     },
     {
         title: "Grameenphone VTS",
+        description: "Grameenphone VTS",
         link: "https://vts.grameenphone.com/",
         imgUrl: "/gp-vts.png",
         technologies:["PHP","Symfony", "Oracle", "Redis", "Angular", "Git"]

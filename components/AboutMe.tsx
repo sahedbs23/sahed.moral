@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+{/* eslint-disable-next-line react/no-unescaped-entities */}
 
 const AboutMe = () => {
     return (
@@ -24,19 +25,24 @@ const AboutMe = () => {
                     University.
                 </p>
                 <p>
+                    {/* eslint-disable-next-line react/no-unescaped-entities */}
                     I have a deep curiosity for a wide range of subjects, although formal education hasn't always been
                     my strong suit.
                     My passion lies in computers and technology, with a particular fondness for computer programming.
+                    {/* eslint-disable-next-line react/no-unescaped-entities */}
                     Lately, I've developed a keen interest in cars.
                 </p>
                 <p>
                     Playing Cricket with my friends is something I cherish. In the past, I used to play as a pace bowler.
                 </p>
                 <p>
+                    {/* eslint-disable-next-line react/no-unescaped-entities */}
                     Currently, I'm employed as a remote senior web application developer at Inmagine Lab. Additionally,
+                    {/* eslint-disable-next-line react/no-unescaped-entities */}
                     I serve as an administrator for phpXperts, Bangladesh's largest developer community.
                 </p>
                 <p>
+                    {/* eslint-disable-next-line react/no-unescaped-entities */}
                     Lately, I've developed a newfound passion for cooking, and I'm excited to share my recipes here.
                 </p>
                 <p>

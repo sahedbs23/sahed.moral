@@ -1,6 +1,5 @@
 import UserModelInterface from "@/interfaces/UserModelInterface";
 import {ExperienceInterface} from "@/components/shared/ExperienceCard";
-import ProjectInterface from "@/interfaces/ProjectInterface";
 import AboutMeInterface from "@/interfaces/AboutMeInterface";
 import SocialLinksInterface from "@/interfaces/SocialLinksInterface";
 import ProjectCardInterface from "@/interfaces/ProjectCardInterface";
@@ -51,32 +50,44 @@ export const experiences: ExperienceInterface[] = [
 ];
 export const PROJECTS: ProjectCardInterface[] = [
     {
-        title: "Banglalink Telecommunication",
-        description: "Banglalink Telecommunication",
+        title: "Perfume World",
+        description: "A renowned E-commerce store based in Bangladesh.",
+        link: "https://perfumeworld.com.bd/",
+        imgUrl: "/pw.png",
+        technologies: [
+            "EC2", "RDS", "S3",
+            "Auto-Scaling", "ELB", "SNS",
+            "CloudFront", "Elastic IP", "VPC",
+            "KMS", "CloudWatch", "CloudTrail"
+        ]
+    },
+    {
+        title: "Banglalink",
+        description: "A prominent telecommunications company with 40 million customers",
         link: "https://banglalink.net/en",
         imgUrl: "/banglalink.png",
-        technologies:[
-            "PHP", "Laravel", "Oracle","React", "Redux",
-            "REST APIs", "Blade", "Eloquent","AWS",
+        technologies: [
+            "PHP", "Laravel", "Oracle", "React", "Redux",
+            "REST APIs", "Blade", "Eloquent", "AWS",
         ]
     },
     {
         title: "Fosoli",
-        description: "Fosoli",
+        description: "App-based platform offering advisory service for the farmers. ",
         link: "https://play.google.com/store/apps/details?id=bd.gov.dgfood.fps&hl=en&gl=US&pli=1",
         imgUrl: "/fosholi.jpeg",
-        technologies:[
-            "PHP", "Laravel", "PostgresSQL","React", "Redux",
-            "Jenkins", "Memcached", "RabbitMQ","AWS",
+        technologies: [
+            "PHP", "Laravel", "PostgresSQL", "React", "Redux",
+            "Jenkins", "Memcached", "RabbitMQ", "AWS",
         ]
     },
     {
-        title: "Abbvie Pro",
-        description: "Abbvie Pro",
+        title: "Abbvie Pro LMS",
+        description: "Learning platform for Abbvie Pro internal medical professionals",
         link: "https://www.abbviepro.com/",
         imgUrl: "/abbvie-pro.png",
-        technologies:[
-            "PHP","Moodle", "MySQL",
+        technologies: [
+            "PHP", "Moodle", "MySQL",
             "Node.js", "OAuth 2.0", "Brightcove"
         ]
     },
@@ -85,8 +96,8 @@ export const PROJECTS: ProjectCardInterface[] = [
         description: "RS is a voluntary, humanitarian member organisation, work to make it safer to travel on and by the sea",
         link: "https://rs.no/kurs",
         imgUrl: "/rs-lms.png",
-        technologies:[
-            "PHP","Moodle", "MariaDB", "SAML2.0", "Azure VM", "Azure DevOps",
+        technologies: [
+            "PHP", "Moodle", "MariaDB", "SAML2.0", "Azure VM", "Azure DevOps",
         ]
     },
     {
@@ -94,7 +105,7 @@ export const PROJECTS: ProjectCardInterface[] = [
         description: "Grameenphone VTS",
         link: "https://vts.grameenphone.com/",
         imgUrl: "/gp-vts.png",
-        technologies:["PHP","Symfony", "Oracle", "Redis", "Angular", "Git"]
+        technologies: ["PHP", "Symfony", "Oracle", "Redis", "Angular", "Git"]
     }
 ];
 
@@ -110,7 +121,7 @@ export const ABOUT_ME: AboutMeInterface = {
     currentProjectUrl: "https://tailwindmasterkit.com",
 };
 
-export const SOCIAL_LINKS:SocialLinksInterface = {
+export const SOCIAL_LINKS: SocialLinksInterface = {
     instagram: "https://instagram.com/maninthere",
     twitter: "https://twitter.com/mannupaaji",
     linkedin: "https://linkedin.com/in/sahed-moral",

@@ -4,20 +4,25 @@ import ProjectCard from "@/components/shared/ProjectCard";
 import FeaturedProject from "@/components/shared/FeaturedProject";
 
 const Projects = () => {
-    const features:string[]  = ["Leading Backend Development", "Performance Optimization", "Database Design", "Team Collaboration", "PR Review"];
+    const features: string[] = ["Leading Backend Development", "Performance Optimization", "Database Design", "Team Collaboration", "PR Review"];
 
-    const achievements:string[]  = ["Added support for new payment methods, resulting in 15% increase in annual revenue",
+    const achievements: string[] = ["Added support for new payment methods, resulting in 15% increase in annual revenue",
         "Developed REST APIs in a distributed setup, Optimized API performance through strategic caching",
         "Refactored and optimized legacy PHP codebase, 3X reduction in response time",
         "Designed and built pricing and checkout page, achieving a 20% page load speed improvement via Server-Side Rendering (SSR) optimization"
     ];
-    const technologies:string[]  = ["PHP", "Laravel", "Symfony", "Node.JS", "Next.JS", "Aurora MySQL", "Redis", "ElasticSearch",
-        "Docker", "AWS S3", "PayPal", "Adyen"];
+    const technologies: string[] = [
+        "PHP", "Laravel", "Symfony",
+        "Node.JS", "Next.JS", "Datadog",
+        "Aurora MySQL", "Redis", "ElasticSearch",
+        "SCSS","Eslint", "Babel",
+        "Docker", "AWS S3", "Snyk",
+        "PayPal", "Adyen", "KG Inicis"];
     return (
         <section>
             <div className="text-center pt-16 pb-8 text-[22px] leading-[24px] font-normal text-black uppercase">
-            <h1 className="py-4">FEATURED PROJECT</h1>
-            <h2>Milestone Moments: A Project That Ignited My Pride</h2>
+                <h1 className="py-4">FEATURED PROJECT</h1>
+                <h2>Milestone Moments: A Project That Ignited My Pride</h2>
             </div>
 
             <section className="bg-[#f9f9f9]">
@@ -73,8 +78,9 @@ const Projects = () => {
                                 </h2>
                                 <ul className="flex flex-row gap-5 flex-wrap justify-around mt-4">
                                     {
-                                        technologies.map( t=> (
-                                            <li className="min-w-[120px] text-center bg-white hover:bg-black-100 text-black-400 py-2 px-4 border border-black-400 rounded shadow text-[14px]"  key={t}>
+                                        technologies.map(t => (
+                                            <li className="min-w-[120px] text-center bg-white hover:bg-black-100 text-black-400 py-2 px-4 border border-black-400 rounded shadow text-[14px]"
+                                                key={t}>
                                                 <span className="">{t}</span>
                                             </li>
                                         ))

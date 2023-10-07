@@ -1,12 +1,5 @@
 import React from "react";
-
-export interface ExperienceInterface {
-    title: string
-    desc: string
-    year: string
-    company: string
-    companyLink: string
-}
+import ExperienceInterface from "@/interfaces/ExperienceInterface";
 
 const ExperienceCard: React.FC<ExperienceInterface> = experience => (
     <div className="relative experience-card border p-4 rounded-md shadow-xl bg-white dark:bg-gray-800 z-10 mx-4">
@@ -17,7 +10,7 @@ const ExperienceCard: React.FC<ExperienceInterface> = experience => (
         <a href={experience.companyLink} className="text-gray-500">
             {experience.company}
         </a>
-        <p className="text-gray-600 dark:text-gray-400 my-2">{experience.desc}</p>
+        <p className="text-gray-600 dark:text-gray-400 my-2">{experience.achievements}</p>
     </div>
 );
 export default ExperienceCard;

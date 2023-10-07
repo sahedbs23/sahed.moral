@@ -1,69 +1,100 @@
 import UserModelInterface from "@/interfaces/UserModelInterface";
-import {ExperienceInterface} from "@/components/shared/ExperienceCard";
+import ExperienceInterface from "@/interfaces/ExperienceInterface";
 import AboutMeInterface from "@/interfaces/AboutMeInterface";
 import SocialLinksInterface from "@/interfaces/SocialLinksInterface";
 import ProjectCardInterface from "@/interfaces/ProjectCardInterface";
 
 export const experiences: ExperienceInterface[] = [
     {
-        title: "Software Developer",
-        company: "mroads",
-        year: "2021",
-        companyLink: "https://mroads.com",
-        desc: "Contributed to our flagship product - Panna - which is an AI powered candidate interviewing product.",
+        title: "Senior Web Application Developer",
+        company: "INMAGINE Lab. Pvt. Ltd.",
+        year: "April 2022 - Present",
+        companyLink: "https://www.inmagine.com",
+        roleResponsibilities: [
+            'Front End Development',
+            'Backend Development',
+        ],
+        achievements:[
+            'developed social login',
+            'Integrated PayPal, Adyen, and KG Inicis payment gateway',
+        ]
     },
     {
-        title: "Founder and Developer",
-        company: "TailwindMasterKit",
+        title: "Senior Software engineer",
+        company: "Brain Station 23 Limited",
         year: "2021",
-        companyLink: "https://tailwindmasterkit.com",
-        desc: "Developed a marketplace for tailwind web components (React, HTML and Angular) and templates.",
+        companyLink: "https://brainstation-23.com",
+        roleResponsibilities: [
+            'Front End Development',
+            'Backend Development',
+        ],
+        achievements:[
+            'developed social login',
+            'Integrated PayPal, Adyen, and KG Inicis payment gateway',
+        ]
     },
     {
-        title: "Founder and Developer",
-        company: "Algochurn",
+        title: "Software engineer",
+        company: "Brain Station 23 Limited",
         year: "2021",
         companyLink: "https://algochurn.com",
-        desc: "Your last moment revision friend right before a Tech coding interview. Practice problems and get hired at top Product based companies.",
+        roleResponsibilities: [
+            'Front End Development',
+            'Backend Development',
+        ],
+        achievements:[
+            'developed social login',
+            'Integrated PayPal, Adyen, and KG Inicis payment gateway',
+        ]
     },
     {
-        title: "Internship",
-        company: "Intel Corporation",
+        title: "Software Engineer",
+        company: "NexDecade Technology Pvt. Ltd.",
         year: "2019",
         companyLink: "https://intel.com",
-        desc: "Developed pothole detection system with OpenCV and computer vision, detects potholes on roads and informs the driver.",
+        roleResponsibilities: [
+            'Front End Development',
+            'Backend Development',
+        ],
+        achievements:[
+            'developed social login',
+            'Integrated PayPal, Adyen, and KG Inicis payment gateway',
+        ]
     },
     {
-        title: "Graduation",
-        company: "UPES, Dehradun.",
+        title: "Software Engineer",
+        company: "Inert Technologies",
         year: "2019",
-        companyLink: "https://upes.co.in",
-        desc: "Major in Computer Science and Engineering with a CGPA of 7.0. Nobody asks this but it's okay.",
-    },
-    {
-        title: "High School",
-        company: "Delhi Public School, Jaipur.",
-        year: "2015",
-        companyLink: "https://upes.co.in",
-        desc: "Subjects being PCM - I barely survived with 93.6% marks aggregate. Flex fridays, fellas.",
-    },
+        companyLink: "https://www.linkedin.com/company/inserttech/",
+        roleResponsibilities: [
+            'Front End Development',
+            'Backend Development',
+        ],
+        achievements:[
+            'developed social login',
+            'Integrated PayPal, Adyen, and KG Inicis payment gateway',
+        ]
+    }
 ];
 export const PROJECTS: ProjectCardInterface[] = [
     {
-        title: "Perfume World",
+        title: "1. Perfume World",
         description: "A renowned E-commerce store based in Bangladesh.",
         link: "https://perfumeworld.com.bd/",
         imgUrl: "/pw.png",
+        role:"Solution Architect",
         technologies: [
             "EC2", "RDS", "S3",
             "Auto-Scaling", "ELB", "SNS",
             "CloudFront", "Elastic IP", "VPC",
-            "KMS", "CloudWatch", "CloudTrail"
+            "KMS", "CloudWatch", "CloudTrail",
+            "Gitlab", "Azure DevOps", "CodeDeploy"
         ]
     },
     {
-        title: "Banglalink",
+        title: "2. Banglalink",
         description: "A prominent telecommunications company with 40 million customers",
+        role:"Full stack developer",
         link: "https://banglalink.net/en",
         imgUrl: "/banglalink.png",
         technologies: [
@@ -72,8 +103,9 @@ export const PROJECTS: ProjectCardInterface[] = [
         ]
     },
     {
-        title: "Fosoli",
+        title: "3. Fosoli",
         description: "App-based platform offering advisory service for the farmers. ",
+        role:"Full stack developer",
         link: "https://play.google.com/store/apps/details?id=bd.gov.dgfood.fps&hl=en&gl=US&pli=1",
         imgUrl: "/fosholi.jpeg",
         technologies: [
@@ -82,30 +114,40 @@ export const PROJECTS: ProjectCardInterface[] = [
         ]
     },
     {
-        title: "Abbvie Pro LMS",
+        title: "4. Abbvie Pro LMS",
+        role:"LMS Developer",
         description: "Learning platform for Abbvie Pro internal medical professionals",
         link: "https://www.abbviepro.com/",
         imgUrl: "/abbvie-pro.png",
         technologies: [
             "PHP", "Moodle", "MySQL",
-            "Node.js", "OAuth 2.0", "Brightcove"
+            "Node.js", "EC2", "RDS",
+            "JIRA", "Confluence", "Brightcove",
+            "OAuth 2.0", "SSO", "Google Analytics"
         ]
     },
     {
-        title: "RS LMS",
+        title: "5. RS LMS",
+        role:"LMS Team Lead",
         description: "RS is a voluntary, humanitarian member organisation, work to make it safer to travel on and by the sea",
         link: "https://rs.no/kurs",
         imgUrl: "/rs-lms.png",
         technologies: [
-            "PHP", "Moodle", "MariaDB", "SAML2.0", "Azure VM", "Azure DevOps",
+            "PHP", "Moodle", "MariaDB",
+            "SAML2.0", "Azure VM", "Azure DevOps",
+            "HTML5", "CSS3", "RequireJS"
         ]
     },
     {
-        title: "Grameenphone VTS",
-        description: "Grameenphone VTS",
+        title: "6. Grameenphone VTS",
+        role:"Full stack developer",
+        description: "Real time GPS based vehicle tracking.",
         link: "https://vts.grameenphone.com/",
         imgUrl: "/gp-vts.png",
-        technologies: ["PHP", "Symfony", "Oracle", "Redis", "Angular", "Git"]
+        technologies: [
+            "PHP", "Symfony", "Oracle",
+            "Redis", "PHPUnit", "PDO",
+            "Git","Angular","NPM"]
     }
 ];
 

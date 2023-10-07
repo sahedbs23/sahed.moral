@@ -5,7 +5,7 @@ import Image from "next/image";
 const AboutMe = () => {
     return (
         <>
-            <section className="px-2 py-0 flex flex-col justify-center items-center text-center">
+            <section className="px-2 py-0 flex flex-col justify-center items-center text-center mt-8">
                 <Image
                     className="inline-flex object-cover rounded-full bg-black-50 dark:bg-black-900 text-black-600 dark:text-black-400"
                     src="/SahedMoral.jpeg"

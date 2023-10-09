@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 
 const Navbar = () => {
+    const projects=['Projects', 'Experience', 'Resume'];
     return (
         <header id="simple-header" className="w-full shadow-md rounded">
             <section className="flex flex-col md:flex-row p-8 text-center md:text-left gap-8">
@@ -45,9 +46,13 @@ const Navbar = () => {
                         </li>
                     </ul>
                         <ul className="flex flex-col md:flex-row justify-between gap-5 md:justify-end">
-                            <li><Link className="text-2xl font-bold text-black" href="/projects">Projects</Link></li>
-                            <li><Link className="text-2xl font-bold text-black" href="/experience">Experience</Link></li>
-                            <li><Link className="text-2xl font-bold text-black" href="/contact">Resume</Link></li>
+                            {
+                                projects.map(m => (
+                                    <li key={m}>
+                                        <Link className="text-2xl font-bold text-black border-dashed border-black border-b" href={`/${m.toLowerCase()}`}>{m}</Link>
+                                    </li>
+                                ))
+                            }
                         </ul>
                     </div>
 

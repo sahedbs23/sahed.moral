@@ -26,7 +26,7 @@ const Projects = () => {
             </div>
 
             <section className="bg-[#f9f9f9]">
-                <div className="w-full flex flex-col items-center text-center py-4">
+                <div className="w-full flex flex-col items-center text-center px-4 md:px-0 py-4">
                     <h1 className={`text-4xl leading-[60px]`}>
                         <a href="https://www.123rf.com" className="underline">
                             123RF
@@ -94,7 +94,7 @@ const Projects = () => {
                 </div>
             </section>
             <h2 className="text-center py-8 uppercase my-8">Highlighted Projects</h2>
-            <ul className="flex flex-col  gap-8 items-center justify-center mx-32 list-none">
+            <ul className="flex flex-col  gap-8 items-center justify-center md:mx-32 list-none">
                 {PROJECTS.map((proj, idx) => (
                     <ProjectCard
                         key={idx}

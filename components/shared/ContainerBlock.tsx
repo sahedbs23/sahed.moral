@@ -2,7 +2,6 @@ import React from "react";
 import Head from "next/head";
 import {useRouter} from "next/router";
 import Navbar from "@/components/shared/Navbar";
-import Footer from "@/components/shared/Footer";
 
 export type NodeCollection = React.ReactNode | React.ReactNode[];
 export interface ContainerBlockInterface {

@@ -14,7 +14,7 @@ const nextConfig = {
             },
             {
                 protocol: 'https',
-                hostname: 'images.unsplash.com',
+                hostname: 's3.tebi.io',
                 port: '',
                 pathname: '/**'
             }

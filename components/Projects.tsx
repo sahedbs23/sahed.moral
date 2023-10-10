@@ -21,7 +21,9 @@ const Projects = () => {
     return (
         <section>
             <div className="text-center pt-16 pb-8 text-[22px] leading-[24px] font-normal text-black uppercase">
-                <h1 className="py-4">FEATURED PROJECT</h1>
+                <h1 className="py-4">
+                    <span className="border-b border-dashed border-black">FEATURED PROJECT</span>
+                </h1>
                 <h2>Milestone Moments: A Project That Ignited My Pride</h2>
             </div>
 
@@ -93,7 +95,9 @@ const Projects = () => {
                     </div>
                 </div>
             </section>
-            <h2 className="text-center py-8 uppercase my-8">Highlighted Projects</h2>
+            <h2 className="text-center py-8 uppercase my-8">
+                <span className="border-black border-b border-dashed">Highlighted Projects</span>
+            </h2>
             <ul className="flex flex-col  gap-8 items-center justify-center md:mx-32 list-none">
                 {PROJECTS.map((proj, idx) => (
                     <ProjectCard

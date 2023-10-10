@@ -8,9 +8,10 @@ const AboutMe = () => {
             <section className="px-2 py-0 flex flex-col justify-center items-center text-center mt-8">
                 <Image
                     className="inline-flex object-cover rounded-full bg-black-50 dark:bg-black-900 text-black-600 dark:text-black-400"
-                    src="/SahedMoral.jpeg"
+                    src="https://s3.tebi.io/sahed/SahedMoral.jpeg"
                     height="184"
                     width="184"
+                    priority
                     alt="Sahed Moral"/>
             </section>
             <section

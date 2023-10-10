@@ -7,7 +7,7 @@ export const PROJECTS: ProjectCardInterface[] = [
         title: "1. Perfume World",
         description: "A renowned E-commerce store based in Bangladesh.",
         link: "https://perfumeworld.com.bd/",
-        imgUrl: "/pw.png",
+        imgUrl: "https://s3.tebi.io/sahed/pw.png",
         role: "Solution Architect",
         technologies: [
             "EC2", "RDS", "S3",
@@ -22,7 +22,7 @@ export const PROJECTS: ProjectCardInterface[] = [
         description: "A prominent telecommunications company with 40 million customers",
         role: "Full stack developer",
         link: "https://banglalink.net/en",
-        imgUrl: "/banglalink.png",
+        imgUrl: "https://s3.tebi.io/sahed/banglalink.png",
         technologies: [
             "PHP", "Laravel", "Symfony",
             "React", "Redux","Oracle",
@@ -35,7 +35,7 @@ export const PROJECTS: ProjectCardInterface[] = [
         description: "App-based platform offering advisory service for the farmers. ",
         role: "Full stack developer",
         link: "https://play.google.com/store/apps/details?id=bd.gov.dgfood.fps&hl=en&gl=US&pli=1",
-        imgUrl: "/fosholi.jpeg",
+        imgUrl: "https://s3.tebi.io/sahed/fosholi.jpeg",
         technologies: [
             "PHP", "Laravel", "Symfony",
             "React", "Redux", "EC2",
@@ -50,7 +50,7 @@ export const PROJECTS: ProjectCardInterface[] = [
         role: "LMS Developer",
         description: "Learning platform for Abbvie Pro internal medical professionals",
         link: "https://www.abbviepro.com/",
-        imgUrl: "/abbvie-pro.png",
+        imgUrl: "https://s3.tebi.io/sahed/abbvie-pro.png",
         technologies: [
             "PHP", "Moodle", "MySQL",
             "Node.js", "EC2", "RDS",
@@ -63,7 +63,7 @@ export const PROJECTS: ProjectCardInterface[] = [
         role: "LMS Team Lead",
         description: "RS is a voluntary, humanitarian member organisation, work to make it safer to travel on and by the sea",
         link: "https://rs.no/kurs",
-        imgUrl: "/rs-lms.png",
+        imgUrl: "https://s3.tebi.io/sahed/rs-lms.png",
         technologies: [
             "PHP", "Moodle", "MariaDB",
             "SAML2.0", "Azure VM", "Azure DevOps",
@@ -75,7 +75,7 @@ export const PROJECTS: ProjectCardInterface[] = [
         role: "Technical Lead",
         description: "JOA Automation is a Japan based aid (Grant-in-aid and subsidiary-aid) automation system.",
         link: "https://service.8link.jp",
-        imgUrl: "/joa.png",
+        imgUrl: "https://s3.tebi.io/sahed/joa.png",
         technologies: [
             "PHP", "Laravel", "MySQL",
             "Livewire", "Alpine JS", "Tailwind CSS",
@@ -87,7 +87,7 @@ export const PROJECTS: ProjectCardInterface[] = [
         role: "Full stack developer",
         description: "Real time GPS based vehicle tracking.",
         link: "https://vts.grameenphone.com/",
-        imgUrl: "/gp-vts.png",
+        imgUrl: "https://s3.tebi.io/sahed/gp-vts.png",
         technologies: [
             "PHP", "Symfony", "Oracle",
             "Redis", "PHPUnit", "PDO",

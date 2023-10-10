@@ -24,8 +24,10 @@ export const PROJECTS: ProjectCardInterface[] = [
         link: "https://banglalink.net/en",
         imgUrl: "/banglalink.png",
         technologies: [
-            "PHP", "Laravel", "Oracle", "React", "Redux",
-            "REST APIs", "Blade", "Eloquent", "AWS",
+            "PHP", "Laravel", "Symfony",
+            "React", "Redux","Oracle",
+            "REST APIs", "AWS","GIT",
+            "Blade", "Eloquent", "CMS"
         ]
     },
     {
@@ -35,9 +37,12 @@ export const PROJECTS: ProjectCardInterface[] = [
         link: "https://play.google.com/store/apps/details?id=bd.gov.dgfood.fps&hl=en&gl=US&pli=1",
         imgUrl: "/fosholi.jpeg",
         technologies: [
-            "PHP", "Laravel", "PostgresSQL",
-            "React", "Redux", "AWS",
+            "PHP", "Laravel", "Symfony",
+            "React", "Redux", "EC2",
+            "PostgresSQL", "REST APIs", "Firebase",
             "Jenkins", "Memcached", "RabbitMQ",
+            "Blade", "Eloquent","CMS",
+
         ]
     },
     {

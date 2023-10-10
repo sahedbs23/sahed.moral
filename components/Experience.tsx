@@ -6,7 +6,7 @@ const Experience = () => (
     <section>
         <div className="text-center pt-16 pb-8 text-[22px] leading-[24px] font-normal text-black">
             <h1 className="py-4 uppercase">My Experiences</h1>
-            <div className="text-xl italic max-w-[700px] m-auto ">
+            <div className="text-xl italic max-w-[700px] m-auto p-[20px]">
                 <p>
                     {/* eslint-disable-next-line react/no-unescaped-entities */}
                     "Through eight years of web-based software development,
@@ -17,10 +17,10 @@ const Experience = () => (
             </div>
 
             <div className="mt-10  mx-1 md:mx-16">
-                <ul className="list-none flex flex-col items-start gap-8">
+                <ul className="list-none flex flex-col items-start gap-4">
                 {
                     experiences.map(experience => (
-                        <li className="flex flex-col md:flex-row gap-5 md:gap-10 p-8 md:p-0" key={experience.year}>
+                        <li className="flex flex-col md:flex-row gap-5 md:gap-10 p-4 md:p-0" key={experience.year}>
                                 <div className="pt-[5px] min-w-[300px]">
                                     <Link
                                         className="border-black border-dashed border-b cursor-pointer"

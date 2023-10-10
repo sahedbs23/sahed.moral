@@ -8,9 +8,9 @@ const Navbar = () => {
             <section className="flex flex-col md:flex-row p-8 text-center md:text-left gap-8">
                 <div className="w-full md:w-3/5">
                     <Link href="/">
-                    <h1 className="text-4xl font-bold text-black">Sahed Moral</h1>
-                    <h2 className="text-2xl font-bold text-black">Backend Software Engineer</h2>
-                    <h2 className="text-2xl font-bold text-black">Front end Developer</h2>
+                        <h1 className="text-4xl font-bold text-black">Sahed Moral</h1>
+                        <h2 className="text-2xl font-bold text-black">Backend Software Engineer</h2>
+                        <h2 className="text-2xl font-bold text-black">Front end Developer</h2>
                     </Link>
                 </div>
                 <div className="w-full md:w-2/5">
@@ -53,6 +53,10 @@ const Navbar = () => {
                                     </li>
                                 ))
                             }
+                            <li>
+                                <Link className="text-2xl font-bold text-black border-dashed border-black border-b"
+                                      href="/">About Me</Link>
+                            </li>
                         </ul>
                     </div>
 

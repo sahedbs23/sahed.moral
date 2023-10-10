@@ -39,7 +39,7 @@ const Projects = () => {
                         A stock photo agency with 28 Million customers
                     </h2>
                     <div className="w-full flex flex-col gap-5 m-10">
-                        <FeaturedProject imageSrc="/Banner.png" alt="123 Royality Free Stock collection Home page">
+                        <FeaturedProject imageSrc="https://s3.tebi.io/sahed/Banner.png" alt="123 Royality Free Stock collection Home page">
                             <>
                                 <h2 className="text-black text-center text-[14px] uppercase">
                                     <span className="pb-2 border-b border-black border-dashed">
@@ -56,7 +56,7 @@ const Projects = () => {
                             </>
                         </FeaturedProject>
 
-                        <FeaturedProject imageSrc="/RF-collections.png" alt="123 Royality free stock collections">
+                        <FeaturedProject imageSrc="https://s3.tebi.io/sahed/RF-collections.png" alt="123 Royality free stock collections">
                             <>
                                 <h2 className="text-black text-center text-[14px] uppercase">
                                     <span className="pb-2 border-b border-black border-dashed">
@@ -73,7 +73,7 @@ const Projects = () => {
                             </>
                         </FeaturedProject>
 
-                        <FeaturedProject imageSrc="/ai-image-writer.png" alt="123 Royality Free Stock contributors">
+                        <FeaturedProject imageSrc="https://s3.tebi.io/sahed/ai-image-writer.png" alt="123 Royality Free Stock contributors">
                             <>
                                 <h2 className="text-black text-center text-[14px] uppercase">
                                     <span className="pb-2 border-b border-black border-dashed">Technology Used</span>

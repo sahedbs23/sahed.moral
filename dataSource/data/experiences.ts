@@ -51,7 +51,7 @@ const experiences: ExperienceInterface[] = [
         location: "Dhaka, Bangladesh - onsite",
         year: "September 2019 – December 2020",
         description: 'A full stack software engineer for 123RF.COM checkout page, responsible for led backend development and frontend collaborations',
-        companyLink: "https://algochurn.com",
+        companyLink: "https://brainstation-23.com",
         roleResponsibilities: [
             'Front End Development',
             'Backend Development',
@@ -71,7 +71,7 @@ const experiences: ExperienceInterface[] = [
         location: "Dhaka, Bangladesh - onsite",
         year: "April 2018 - August 2019",
         description: 'A full stack software engineer for 123RF.COM checkout page, responsible for led backend development and frontend collaborations',
-        companyLink: "https://intel.com",
+        companyLink: "https://en.nexdecade.com",
         roleResponsibilities: [
             'Front End Development',
             'Backend Development',

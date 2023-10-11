@@ -11,47 +11,39 @@ const Experience = () => {
     // const experiences = experiences;
     return (
         <section className="max-w-[768px] mx-auto">
-            <div className="text-center pt-16 pb-8 text-[14px] leading-[24px] font-normal text-black">
-                <h1 className="py-4 uppercase">My Experiences</h1>
-                <div className="text-xl italic p-[20px]">
-                    <p>
-                        {/* eslint-disable-next-line react/no-unescaped-entities */}
-                        "Through eight years of web-based software development,
-                        my journey has been a compelling narrative of stories and struggles,
-                        {/* eslint-disable-next-line react/no-unescaped-entities */}
-                        each chapter contributing to my growth as a software engineer."
-                    </p>
-                </div>
+            <div className="text-left pt-8 text-[16px] leading-[24px] font-normal text-black">
+                <h1 className="pl-4 pb-2 uppercase">
+                    <span className="border-dashed border-b border-black">Experiences</span>
+                </h1>
+                {/*<div className="text-xl italic p-[20px]">*/}
+                {/*    <p>*/}
+                {/*        /!* eslint-disable-next-line react/no-unescaped-entities *!/*/}
+                {/*        "Through eight years of web-based software development, my journey has been a compelling narrative of stories and struggles, each chapter contributing to my growth as a software engineer."*/}
+                {/*    </p>*/}
+                {/*</div>*/}
 
                 <div className="">
-                    <ul className="list-none flex flex-col">
+                    <ul className="list-none flex flex-col gap-5 p-4 pt-0">
                         {
-                            experiences.map(experience => (
-                                <li
-                                    className="text-left"
-                                    key={experience.company}
+                            experiences.map((experience,i) => (
+                                <li className="text-left" key={experience.company}
                                 >
                                     <h2>
-                                        <a href={experience.companyLink}>
+                                        <Link className="hover:border-black hover:border-b hover:border-solid text-[18px] hover:text-[#0a66c2]" href={experience.companyLink}>
                                             {experience.company}
-                                        </a>
+                                        </Link>
                                     </h2>
-                                    <h3>{experience.location}</h3>
-                                    <ul className="">
+                                    <h3 className="text-[16px]">{experience.location}</h3>
+                                    <ul className="pb-4">
                                         {
                                             experience.positions.map(p => (
-                                                <li key={p.year} className="border-l-2 border-gray-400">
-                                                    <h2>{p.title}</h2>
-                                                    <h3>{p.year}</h3>
+                                                <li key={p.year} className="pb-4 last:pb-0">
+                                                    <h2 className="text-[16px] text-[#00000099]">{p.title}</h2>
+                                                    <h3 className="text-[16px] text-[#00000099]">{p.year}</h3>
                                                     <ul className="list-disc pl-8">
                                                         {
                                                             p.achievements.map((a,index)=>(
-                                                                <li
-                                                                    className=""
-                                                                    key={index}
-                                                                >
-                                                                    {a}
-                                                                </li>
+                                                                <li key={index}>{a}</li>
                                                             ))
                                                         }
                                                     </ul>
@@ -80,6 +72,11 @@ const Experience = () => {
                                     {/*        ))}*/}
                                     {/*    </ul>*/}
                                     {/*</div>*/}
+                                    <div className="w-[94%] mx-auto">
+                                        {
+                                            i!=3 && <hr/>
+                                        }
+                                    </div>
                                 </li>
                             ))
                         }

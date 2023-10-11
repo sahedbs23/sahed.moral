@@ -1,5 +1,5 @@
 import React from "react";
-import {PROJECTS} from "@/dataSource/data";
+import {PROJECTS} from "@/dataSource/data/projects";
 import ProjectCard from "@/components/shared/ProjectCard";
 import FeaturedProject from "@/components/shared/FeaturedProject";
 

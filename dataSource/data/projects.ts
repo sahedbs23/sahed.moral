@@ -1,5 +1,3 @@
-import UserModelInterface from "@/interfaces/UserModelInterface";
-import SocialLinksInterface from "@/interfaces/SocialLinksInterface";
 import ProjectCardInterface from "@/interfaces/ProjectCardInterface";
 
 export const PROJECTS: ProjectCardInterface[] = [
@@ -94,24 +92,3 @@ export const PROJECTS: ProjectCardInterface[] = [
             "Git", "Angular", "NPM"]
     }
 ];
-
-export const SOCIAL_LINKS: SocialLinksInterface = {
-    instagram: "https://instagram.com/maninthere",
-    twitter: "https://twitter.com/mannupaaji",
-    linkedin: "https://linkedin.com/in/sahed-moral",
-    github: "https://github.com/sahedbs23",
-    facebook: "https://facebook.com/",
-    peerlist: "https://peerlist.io/manuarora",
-};
-
-export const USERDATA: UserModelInterface = {
-    githubUsername: "sahedbs23",
-    name: "Sahed Moral",
-    designation: "Full-Stack Developer",
-    avatarUrl: "/avatar.png",
-    email: "moral.sahed@gmail.com",
-    phone: "+880 (171) 499-9720",
-    address: "Dhaka, Dhaka, Bangladesh",
-    resumeUrl:
-        "https://drive.google.com/file/d/1xmE3BOmgM7TAOOgVp36xQIQvYDntDYoo/view?usp=sharing",
-};

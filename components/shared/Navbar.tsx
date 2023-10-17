@@ -4,7 +4,7 @@ import Link from "next/link";
 const Navbar = () => {
     const menus = ['Projects', 'Experience'];
     return (
-        <header id="simple-header" className="w-full shadow-md rounded">
+        <header id="simple-header" className="w-full bg-[#f8f8f8] rounded">
             <section className="flex flex-col md:flex-row p-8 text-center md:text-left gap-8">
                 <div className="w-full md:w-3/5">
                     <Link href="/">
@@ -76,14 +76,14 @@ const Navbar = () => {
                                 menus.map(m => (
                                     <li key={m}>
                                         <Link
-                                            className="text-2xl font-bold text-black border-dashed border-black border-b"
+                                            className="text-2xl font-bold border-black border-b border-dashed text-[#0a66c2]"
                                             href={`/${m.toLowerCase()}`}>{m}</Link>
                                     </li>
                                 ))
                             }
                             <li>
                                 <Link
-                                    className="text-2xl font-bold text-black border-dashed border-black border-b"
+                                    className="text-2xl font-bold border-black border-b border-dashed text-[#0a66c2]"
                                     href="/">
                                     About Me
                                 </Link>

@@ -3,25 +3,12 @@ import experiences from "@/dataSource/data/experiences";
 import Link from "next/link";
 
 const Experience = () => {
-    // const [experiances, setExperiances] = useState(null);
-    //
-    // useEffect((experiances)=>{
-    //     setExperiances(experiances)
-    // }, [experiances]);
-    // const experiences = experiences;
     return (
         <section className="max-w-[768px] mx-auto">
             <div className="text-left pt-8 text-[16px] leading-[24px] font-normal text-black">
                 <h1 className="pl-4 pb-2 uppercase">
                     <span className="border-dashed border-b border-black">Experiences</span>
                 </h1>
-                {/*<div className="text-xl italic p-[20px]">*/}
-                {/*    <p>*/}
-                {/*        /!* eslint-disable-next-line react/no-unescaped-entities *!/*/}
-                {/*        "Through eight years of web-based software development, my journey has been a compelling narrative of stories and struggles, each chapter contributing to my growth as a software engineer."*/}
-                {/*    </p>*/}
-                {/*</div>*/}
-
                 <div className="">
                     <ul className="list-none flex flex-col gap-5 p-4 pt-0">
                         {
@@ -29,7 +16,7 @@ const Experience = () => {
                                 <li className="text-left" key={experience.company}
                                 >
                                     <h2>
-                                        <Link className="hover:border-black hover:border-b hover:border-solid text-[18px] hover:text-[#0a66c2]" href={experience.companyLink}>
+                                        <Link className="hover:border-black hover:border-b hover:border-solid text-[18px] text-[#0a66c2]" href={experience.companyLink}>
                                             {experience.company}
                                         </Link>
                                     </h2>

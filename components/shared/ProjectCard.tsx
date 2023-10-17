@@ -1,13 +1,16 @@
 import React from "react";
 import ProjectCardInterface from "@/interfaces/ProjectCardInterface";
 import Image from "next/image";
+import Link from "next/link";
 
 const ProjectCard: React.FC<ProjectCardInterface> = ({title,role, description, link, imgUrl, technologies}) => {
     return (
         <li className="w-full min-h-[150px] h-full p-[10px] bg-[#f9f9f9] text-center rounded">
             <div className="mt-4 mb-8">
-                <h2 className="text-4xl leading-[60px] pt-2">
-                    <a href={link} target="_blank" className="underline uppercase">{title}</a>
+                <h2 className="pt-2">
+                    <Link href={link} target="_blank"className="uppercase hover:border-black hover:border-b hover:border-solid text-[#0a66c2]" >
+                        {title}
+                    </Link>
                 </h2>
                 <h3 className="font-normal text-[18px]">Role: {role}</h3>
                 <h4 className="font-normal text-[16px] text-black leading-5 ">{description}</h4>

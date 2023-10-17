@@ -16,8 +16,8 @@ const experiences: ExperienceInterface[] = [
                 description: 'As a senior full-stack software engineer, I spearheaded both backend development and collaborative efforts with the frontend team for the 123RF.COM checkout page.',
                 achievements: [
                     'Successfully integrated the KG Inicis payment gateway, achieving an 8% reduction in payment processing costs',
-                    'Implemented Auto-Rescue for the Adyen Payment gateway, boosted recurring payments by 5%',
-                    'Spearheaded Unit and Integration testing efforts, reduced 3% production bugs',
+                    'Implemented Auto-Rescue for the Adyen Payment gateway, boosting recurring payments by 5%',
+                    'Spearheaded Unit and Integration testing efforts, reducing 3% production bugs',
                     'Refactored code, optimized and scaled database structure and queries, implemented API caching, improving API response time by 30%',
                     'Significantly enhanced application performance and memory efficiency by upgrading legacy PHP 5.6 Rest APIs to PHP 7.4',
                     'Streamlined the user onboarding process by integrating Social Login, reducing the time spent by new users by 25%',

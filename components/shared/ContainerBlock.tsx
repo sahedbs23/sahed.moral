@@ -2,6 +2,7 @@ import React from "react";
 import Head from "next/head";
 import {useRouter} from "next/router";
 import Navbar from "@/components/shared/Navbar";
+import Footer from "@/components/shared/Footer";
 
 export type NodeCollection = React.ReactNode | React.ReactNode[];
 export interface ContainerBlockInterface {
@@ -52,10 +53,10 @@ const ContainerBlock: React.FC<ContainerBlockInterface> = ({children, ...customM
             </Head>
             <main className="dark:bg-white-800 w-full">
                 <Navbar/>
-                <div className="mb-16 text-2xl">
+                <div className="mb-8 text-2xl">
                     {children}
                 </div>
-                {/*<Footer/>*/}
+                <Footer/>
             </main>
         </div>
     );

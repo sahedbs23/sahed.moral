@@ -32,7 +32,7 @@ const ContainerBlock: React.FC<ContainerBlockInterface> = ({children, ...customM
                     property="og:url"
                     content={`https://sahed.vercel.app/${router.asPath}`}
                 />
-                <link rel="icon" href="/favicon.png" type="image/png" sizes="32x32"/>
+                <link rel="icon" href="https://s3.tebi.io/sahed/favicon.png" type="image/png" sizes="32x32"/>
                 <link
                     rel="canonical"
                     href={`https://sahed.vercel.app${router.asPath}`}

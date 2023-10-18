@@ -11,6 +11,7 @@ export const PROJECTS: ProjectCardInterface[] = [
             "EC2", "RDS", "S3",
             "Auto-Scaling", "ELB", "SNS",
             "CloudFront", "Elastic IP", "VPC",
+            "ElastiCache", "Linux", "CentOS",
             "KMS", "CloudWatch", "CloudTrail",
             "Gitlab", "Azure DevOps", "CodeDeploy"
         ]

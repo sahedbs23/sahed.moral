@@ -4,7 +4,7 @@ import AboutMe from "@/components/AboutMe";
 
 const Home = () => (
     <ContainerBlock
-        title="Sahed Moral - Full Stack Engineer, Backend Engineer, Frontend Engineer"
+        title="Sahed Moral - Backend Software Engineer, Front End Developer, Full Stack Engineer"
         description="A Full Stack Software Engineer with 8 years of industry experinace, Spasalized In PHP,Laravel,React"
     >
         <AboutMe/>

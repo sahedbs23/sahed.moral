@@ -38,28 +38,7 @@ const Experience = () => {
                                             ))
                                         }
                                     </ul>
-                                    {/*<div className="pt-[5px] min-w-[300px]">*/}
-                                    {/*    <Link*/}
-                                    {/*        className="border-black border-dashed border-b cursor-pointer"*/}
-                                    {/*        href={experience.companyLink}*/}
-                                    {/*        title={experience.company}*/}
-                                    {/*    >*/}
-                                    {/*        {experience.company}*/}
-                                    {/*    </Link>*/}
-                                    {/*</div>*/}
-                                    {/*<div className="flex flex-col gap-2 text-left">*/}
-                                    {/*    <ul className="text-[14px]">*/}
-                                    {/*        <li className="text-2xl">{experience.title}</li>*/}
-                                    {/*        <li>{experience.year}</li>*/}
-                                    {/*        <li>{experience.location}</li>*/}
-                                    {/*    </ul>*/}
-                                    {/*    <ul className="list-disc list-outside pl-3 text-[14px]">*/}
-                                    {/*        {experience.achievements.map((a, index) => (*/}
-                                    {/*            <li className="py-1" key={`${a} - ${index}`}>{a}</li>*/}
-                                    {/*        ))}*/}
-                                    {/*    </ul>*/}
-                                    {/*</div>*/}
-                                    <div className="w-[94%] mx-auto">
+                                    <div className="w-[98%] mx-auto">
                                         {
                                             i!=3 && <hr/>
                                         }

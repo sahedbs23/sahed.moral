@@ -1,11 +1,17 @@
-import React, {useEffect, useState} from "react";
+import React from "react";
 import {PROJECTS} from "@/dataSource/data/projects";
 import experiences from "@/dataSource/data/experiences";
 import ProjectCard from "@/components/shared/ProjectCard";
 import FeaturedProject from "@/components/shared/FeaturedProject";
 
 const Projects = () => {
-    const features: string[] = ["Leading Backend Development", "Performance Optimization", "Database Design", "Team Collaboration", "PR Review"];
+    const features: string[] = [
+        "Leading Backend Development",
+        "Performance Optimization",
+        "Database Design",
+        "Frontend Collaboration",
+        "PR Review"
+    ];
 
     const achievements = experiences[0].positions[0].achievements;
     const technologies: string[] = [

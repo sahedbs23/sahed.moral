@@ -44,7 +44,7 @@ const experiences: ExperienceInterface[] = [
                     // 'Train freshers',
                 ],
                 achievements: [
-                    'Delivered LMS solution for more tha 5 clients.',
+                    'Successfully implemented Learning Management System (LMS) solutions for over 5 clients, enabling seamless online education for a diverse learner base exceeding 100,000 individuals.',
                     'Led the development and publication of 5+ open-source Moodle plugins adopted by 1500+ organizations.',
                     'As a AWS cloud solution architect designed a scalable cloud solution to support 20,000 concurrent users.',
                     'Implemented Continuous Integration/Delivery (CI/CD) with the Blue-Green deployment strategy, achieved a zero deployment downtime.',
@@ -86,10 +86,10 @@ const experiences: ExperienceInterface[] = [
                 'Backend Development',
             ],
             achievements: [
+                'Led the development of comprehensive vehicle management system, adeptly overseeing the seamless management of 4000 vehicles, encompassing booking, parking, and parts requisition',
                 'Restructured Grameenphone vehicle tracking system (VTS) web application, separated frontend and backend.',
                 'Improved website performance by implementing a custom PHP framework, seamlessly integrated with CodeIgniter and Symfony components, and leveraging REST APIs, resulting in a 5-second reduction in page load time.',
                 'Rebuilt live vehicle tracking page to the new design system, which increased user engagement and time spent by 5+%.',
-                'Led the development of vehicle management system.',
             ]
         }]
 
@@ -101,17 +101,17 @@ const experiences: ExperienceInterface[] = [
         positions: [{
             title: "Software Engineer",
             year: "December 2014 - March 2018",
-            description: 'A full stack software engineer for 123RF.COM checkout page, responsible for led backend development and frontend collaborations',
+            description: '',
             roleResponsibilities: [
                 'Front End Development',
                 'Backend Development',
             ],
             achievements: [
-                'Designed, built, and shipped a car booking management application.',
+                'Architected and implemented all features required for the car booking platform, resulting in a 15% reduction in car rental costs by streamlining the handling of 260 bookings in under one year.',
                 'Develop a Hospital Enterprise Resource Planning (ERP) system in collaboration with a team of 9.',
-                'Designed and developed in-patient and out-patient modules from scratch.',
+                'Created a comprehensive out-patient (Emergency) ticketing system, managing 3000+ daily patient records, resulting in streamlined operations and enhanced efficiency.',
                 'Collaborated with 3 others developer to develop a Inventory Management System. Implemented (First-in first-out) FIFO to reduce risk of obsolescence and spoilage',
-                'Developed 10+ custom wordpress plugins'
+                'Developed over 10 WordPress plugins, enhancing website functionality and user experience, resulting in increased user engagement and improved site performance.'
             ]
         }]
 

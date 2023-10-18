@@ -18,7 +18,7 @@ const ProjectCard: React.FC<ProjectCardInterface> = ({title,role, description, l
             <div className="flex flex-col gap-10 md:flex-row mt-4 mb-8 items-center justify-center">
                 <div className="w-full md:w-1/2 min-h-[150px] bg-white rounded p-3">
                     <a href={link}>
-                        <Image height={258} width={458} src={imgUrl} alt={title} priority={true} />
+                        <Image height="258" width="458" src={imgUrl} alt={title} priority={true} />
                     </a>
                 </div>
                 <div className="w-full md:w-1/2">

@@ -3,6 +3,7 @@ import Head from "next/head";
 import {useRouter} from "next/router";
 import Navbar from "@/components/shared/Navbar";
 import Footer from "@/components/shared/Footer";
+import { Analytics } from '@vercel/analytics/react';
 
 export type NodeCollection = React.ReactNode | React.ReactNode[];
 export interface ContainerBlockInterface {
@@ -55,6 +56,7 @@ const ContainerBlock: React.FC<ContainerBlockInterface> = ({children, ...customM
                 <Navbar/>
                 <div className="mb-8 text-2xl">
                     {children}
+                    <Analytics/>
                 </div>
                 <Footer/>
             </main>

@@ -33,7 +33,7 @@ const ContainerBlock: React.FC<ContainerBlockInterface> = ({children, ...customM
                     property="og:url"
                     content={`https://sahed.vercel.app/${router.asPath}`}
                 />
-                <link rel="icon" href="https://s3.tebi.io/sahed/favicon.png" type="image/png" sizes="32x32"/>
+                <link rel="icon" href="https://s3.tebi.io/sahed/SahedMoral.jpeg" type="image/png" sizes="32x32"/>
                 <link
                     rel="canonical"
                     href={`https://sahed.vercel.app${router.asPath}`}
@@ -43,16 +43,11 @@ const ContainerBlock: React.FC<ContainerBlockInterface> = ({children, ...customM
                 <meta property="og:description" content={meta.description}/>
                 <meta property="og:title" content={meta.title}/>
                 <meta property="og:image" content={meta.image}/>
-                {/*<meta name="twitter:card" content="summary_large_image"/>*/}
-                {/*<meta name="twitter:site" content="@mannupaaji"/>*/}
-                {/*<meta name="twitter:title" content={meta.title}/>*/}
-                {/*<meta name="twitter:description" content={meta.description}/>*/}
-                {/*<meta name="twitter:image" content={meta.image}/>*/}
                 {meta?.date && (
                     <meta property="article:published_time" content={meta.date}/>
                 )}
             </Head>
-            <main className="dark:bg-white-800 w-full">
+            <main className="bg-[#fafafa] w-full">
                 <Navbar/>
                 <div className="mb-8 text-2xl">
                     {children}

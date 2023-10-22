@@ -2,39 +2,37 @@ import React from "react";
 import ProjectCardInterface from "@/interfaces/ProjectCardInterface";
 import Image from "next/image";
 import Link from "next/link";
+import TechnologyLists from "@/components/shared/TechnologyLists";
+import parse from 'html-react-parser';
 
 const ProjectCard: React.FC<ProjectCardInterface> = ({title,role, description, link, imgUrl, technologies}) => {
     return (
-        <li className="w-full min-h-[150px] h-full p-[10px] bg-[#f9f9f9] text-center rounded">
-            <div className="mt-4 mb-8">
+        <li className="w-full min-h-[150px] h-full p-[10px] bg-[#f9f9f9] text-center py-4 flex flex-col gap-10">
+            <div className="flex flex-col justify-items-center items-center gap-4 font-normal text-[14px] text-[#555]">
                 <h2 className="pt-2">
-                    <Link href={link} target="_blank"className="uppercase hover:border-black hover:border-b hover:border-solid text-[#0a66c2]" >
+                    <Link href={link} target="_blank" className="uppercase font-bold text-purple text-2xl" >
                         {title}
                     </Link>
                 </h2>
-                <h3 className="font-normal text-[18px]">Role: {role}</h3>
-                <h4 className="font-normal text-[16px] text-black leading-5 ">{description}</h4>
+                <h4 className=" text-left text-[18px] max-w-4xl">{parse(description)}</h4>
+                {/*<h4 className="text-[16px]">{role}</h4>*/}
             </div>
-            <div className="flex flex-col gap-10 md:flex-row mt-4 mb-8 items-center justify-center">
-                <div className="w-full md:w-1/2 min-h-[150px] bg-white rounded p-3">
-                    <a href={link}>
-                        <Image height="258" width="458" src={imgUrl} alt={title} priority={true} />
-                    </a>
+            <div className="flex flex-col gap-10 md:flex-row py-8 justify-between items-center">
+                <div className="w-full md:w-1/2 flex flex-col gap-10">
+                    <div className="flex flex-col  p-2 bg-white rounded">
+                        <a href={link}>
+                            <Image
+                                src={imgUrl}
+                                alt={title}
+                                width="543"
+                                height="305"
+                                priority
+                            />
+                        </a>
+                    </div>
                 </div>
-                <div className="w-full md:w-1/2">
-                    <h2 className="text-black text-center text-[14px] uppercase">
-                        <span className="pb-2 border-b border-black border-dashed">Technology Used</span>
-                    </h2>
-                    <ul className="flex flex-row gap-5 flex-wrap justify-around mt-4">
-                        {
-                            technologies?.map(t => (
-                                <li key={t}
-                                    className="min-w-[120px] text-center bg-white hover:bg-black-100 text-black-400 py-2 px-4 border border-black-400 rounded shadow text-[14px]">
-                                    <span className="">{t}</span>
-                                </li>
-                            ))
-                        }
-                    </ul>
+                <div className="w-full md:w-1/2 flex flex-col gap-5 justify-evenly">
+                    <TechnologyLists headline="Technology used" skills={technologies} />
                 </div>
             </div>
         </li>

@@ -4,5 +4,5 @@ export default interface ProjectCardInterface {
     role:string,
     link:string,
     imgUrl:string,
-    technologies?:string[]
+    technologies:string[]
 }

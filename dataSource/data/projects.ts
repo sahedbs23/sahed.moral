@@ -2,26 +2,44 @@ import ProjectCardInterface from "@/interfaces/ProjectCardInterface";
 
 export const PROJECTS: ProjectCardInterface[] = [
     {
-        title: "1. Perfume World",
-        description: "A renowned E-commerce store based in Bangladesh.",
+        title: "1. 123RF.COM",
+        description: `123RF.COM is a royalty free stock photo agency with more than <i>28 millions</i> active users.
+            As a full stack web application developer <span class="text-black">led the backend development</span> of checkout team in a distributed architecture.
+            Also, collaborated with a team of 5 Front-end to deliver <a class="text-purple" href="https://www.123rf.com/products/" target="_blank">pricing</a> and <a class="text-purple" target="_blank" href="https://www.123rf.com/purchase/?pkg=credits&plan=30&po=pricing">checkout page</a>.`,
+        link: "https://www.123rf.com",
+        imgUrl: "https://s3.tebi.io/sahed/123rf.com.png",
+        role: "As a result added support for new payment gateways and increased annual revenue by 15%.",
+        technologies: [
+            "PHP", "Laravel", "Symfony",
+            "Node.JS", "Next.JS", "Datadog",
+            "Aurora MySQL", "Redis", "ElasticSearch",
+            "SCSS", "Eslint", "Babel",
+            "Docker", "AWS S3", "Snyk",
+            "PayPal", "Adyen", "KG Inicis"
+        ]
+    },
+    {
+        title: "2. Perfume World",
+        description: `As an AWS Cloud Solution Architect at Perfume World, a leading E-commerce store in Bangladesh, I designed a cutting-edge solution leveraging Amazon Web Services (AWS) to accommodate 20,000 concurrent users, ensuring robust and scalable performance.`,
         link: "https://perfumeworld.com.bd/",
-        imgUrl: "https://s3.tebi.io/sahed/pw.png",
+        imgUrl: "https://s3.tebi.io/sahed/perfume-world.com.png",
         role: "Solution Architect",
         technologies: [
             "EC2", "RDS", "S3",
             "Auto-Scaling", "ELB", "SNS",
             "CloudFront", "Elastic IP", "VPC",
-            "ElastiCache", "Linux", "CentOS",
+            "ElasticCache", "Linux", "CentOS",
             "KMS", "CloudWatch", "CloudTrail",
-            "Gitlab", "Azure DevOps", "CodeDeploy"
+            "Gitlab", "Azure DevOps"
         ]
     },
     {
-        title: "2. Banglalink",
-        description: "A prominent telecommunications company with 40 million customers",
+        title: "3. Banglalink",
+        description: `I served as a Frontend Developer, responsible for designing and deploying the plan and pricing page at Banglalink, the second-largest telecommunications company in Bangladesh with 40 million customers.
+         Additionally, I worked as a Backend Developer, creating a Content Management System (CMS) for content distribution and developing REST APIs to serve both mobile and web clients.`,
         role: "Full stack developer",
         link: "https://banglalink.net/en",
-        imgUrl: "https://s3.tebi.io/sahed/banglalink.png",
+        imgUrl: "https://s3.tebi.io/sahed/banglalink.net.png",
         technologies: [
             "PHP", "Laravel", "Symfony",
             "React", "Redux","Oracle",
@@ -30,11 +48,11 @@ export const PROJECTS: ProjectCardInterface[] = [
         ]
     },
     {
-        title: "3. Fosoli",
+        title: "4. Fosoli",
         description: "App-based platform offering advisory service for the farmers. ",
         role: "Full stack developer",
         link: "https://play.google.com/store/apps/details?id=bd.gov.dgfood.fps&hl=en&gl=US&pli=1",
-        imgUrl: "https://s3.tebi.io/sahed/fosholi.jpeg",
+        imgUrl: "https://s3.tebi.io/sahed/fosholi.com.png",
         technologies: [
             "PHP", "Laravel", "Symfony",
             "React", "Redux", "EC2",
@@ -45,11 +63,11 @@ export const PROJECTS: ProjectCardInterface[] = [
         ]
     },
     {
-        title: "4. Abbvie Pro LMS",
+        title: "5. Abbvie Pro LMS",
         role: "LMS Developer",
         description: "Learning platform for Abbvie Pro internal medical professionals",
         link: "https://www.abbviepro.com/",
-        imgUrl: "https://s3.tebi.io/sahed/abbvie-pro.png",
+        imgUrl: "https://s3.tebi.io/sahed/abbviepro.com.png",
         technologies: [
             "PHP", "Moodle", "MySQL",
             "Node.js", "EC2", "RDS",
@@ -58,11 +76,11 @@ export const PROJECTS: ProjectCardInterface[] = [
         ]
     },
     {
-        title: "5. RS LMS",
+        title: "6. RS LMS",
         role: "LMS Team Lead",
         description: "RS is a voluntary, humanitarian member organisation, work to make it safer to travel on and by the sea",
         link: "https://rs.no/kurs",
-        imgUrl: "https://s3.tebi.io/sahed/rs-lms.png",
+        imgUrl: "https://s3.tebi.io/sahed/learning.rs.no.png",
         technologies: [
             "PHP", "Moodle", "MariaDB",
             "SAML2.0", "Azure VM", "Azure DevOps",
@@ -70,11 +88,11 @@ export const PROJECTS: ProjectCardInterface[] = [
         ]
     },
     {
-        title: "6. JOA Automation",
+        title: "7. JOA Automation",
         role: "Technical Lead",
         description: "JOA Automation is a Japan based aid (Grant-in-aid and subsidiary-aid) automation system.",
         link: "https://service.8link.jp",
-        imgUrl: "https://s3.tebi.io/sahed/joa.png",
+        imgUrl: "https://s3.tebi.io/sahed/service.8link.jp.png",
         technologies: [
             "PHP", "Laravel", "MySQL",
             "Livewire", "Alpine JS", "Tailwind CSS",
@@ -82,7 +100,7 @@ export const PROJECTS: ProjectCardInterface[] = [
         ]
     },
     {
-        title: "7. Grameenphone VTS",
+        title: "8. Grameenphone VTS",
         role: "Full stack developer",
         description: "Real time GPS based vehicle tracking.",
         link: "https://vts.grameenphone.com/",

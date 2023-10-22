@@ -1,6 +1,7 @@
 import React from "react";
 import ContainerBlock from "@/components/shared/ContainerBlock";
 import AboutMe from "@/components/AboutMe";
+import Projects from "@/components/Projects";
 
 const Home = () => (
     <ContainerBlock

@@ -15,14 +15,14 @@ const experiences: ExperienceInterface[] = [
                 ],
                 description: 'As a senior full-stack software engineer, I spearheaded both backend development and collaborative efforts with the frontend team for the 123RF.COM checkout page.',
                 achievements: [
-                    'Successfully integrated the KG Inicis payment gateway, achieving an 8% reduction in payment processing costs',
+                    'Integrated the KG Inicis payment gateway, achieving an 8% reduction in payment processing costs',
                     'Implemented Auto-Rescue for the Adyen Payment gateway, boosting recurring payments by 5%',
+                    'Refactored code, optimized and scaled database, implemented API caching, improving API response time by 30%',
                     'Spearheaded Unit and Integration testing efforts, reducing 3% production bugs',
-                    'Refactored code, optimized and scaled database structure and queries, implemented API caching, improving API response time by 30%',
                     'Significantly enhanced application performance and memory efficiency by upgrading legacy PHP 5.6 Rest APIs to PHP 7.4',
-                    'Streamlined the user onboarding process by integrating Social Login, reducing the time spent by new users by 25%',
-                    'Collaborated with a cross-functional team of 4 Front-end developers and 3 designers to conceive, develop, and successfully deploy the checkout and pricing pages',
-                    'Collaborated with the marketing team to boost sales by integrating third-party marketing tools such as GetResponse, Google Analytics, and etc'
+                    'Optimized user onboarding through the integration of Social Login, resulting in a 25% reduction in new user onboarding time.',
+                    'Built and shipped checkout and pricing page, collaborating with a cross-functional team of 4 Front-end developers and 3 designers',
+                    'Collaborated with the marketing team to boost sales by integrating third-party marketing tools such as GetResponse, Google Analytics, AWIN, etc'
                 ]
             }
         ],
@@ -44,12 +44,12 @@ const experiences: ExperienceInterface[] = [
                     // 'Train freshers',
                 ],
                 achievements: [
-                    'Successfully implemented Learning Management System (LMS) solutions for over 5 clients, enabling seamless online education for a diverse learner base exceeding 100,000 individuals.',
-                    'Led the development and publication of 5+ open-source Moodle plugins adopted by 1500+ organizations.',
-                    'As a AWS cloud solution architect designed a scalable cloud solution to support 20,000 concurrent users.',
-                    'Implemented Continuous Integration/Delivery (CI/CD) with the Blue-Green deployment strategy, achieved a zero deployment downtime.',
-                    'Designed the database, Led a team of 4 to build and ship JOA-Automation, delivered 4 weeks ahead of the deadline.',
-                    'Implemented Single Sign-On (SSO) functionality, optimizing access for a user base exceeding 50,000 individuals.',
+                    'Architected a scalable Amazon Web Services (AWS) cloud solution to support 20,000 concurrent users',
+                    'Implemented Continuous Integration/Delivery (CI/CD) with the Blue-Green deployment strategy, achieved a zero deployment downtime',
+                    'Led a team of 4 to build and ship JOA-Automation, delivered 4 weeks ahead of the deadline',
+                    'Led the development and publication of 5+ open-source Moodle plugins adopted by 1500+ organizations',
+                    'Delivered more than 5 Learning Management System (LMS) solutions, enabling seamless online education for a diverse learner base exceeding 100,000 individuals',
+                    'Implemented Single Sign-On (SSO) functionality, optimizing access for a user base exceeding 50,000 individuals',
                 ]
             },
             {
@@ -61,12 +61,11 @@ const experiences: ExperienceInterface[] = [
                     'Backend Development',
                 ],
                 achievements: [
-                    'Designed and launched an AD portal for Fosholi, successfully delivering personalized advertisements to the intended target audience.',
-                    'Built and shipped the Plans and Offers page for Banglalink, a prominent telecommunication company with 40 million customers.',
-                    'Designed and developed the Fosholi web portal, a transformative web application empowering 2.6 million Bangladeshi farmers.',
+                    'Designed and launched an AD portal, delivering personalized advertisements to 100k+ targeted audiences',
                     'Created reliable, secure, scalable APIs, enhancing system security and reliability',
-                    'Upgraded Fosholi web portal from react version 9 to version 13',
-                    'Collaboration a team of 5 to develop Content Management System (CMS)'
+                    'Built and shipped the Plans and Offers page for Banglalink, a prominent telecommunication company with 40 million customers',
+                    'Upgraded Fosholi web portal from React version 9 to version 13, a transformative web application empowering 2.6 million Bangladeshi farmers',
+                    'Collaboration with a team of 5 to develop a Content Management System (CMS)'
                 ]
             },
         ]
@@ -86,9 +85,9 @@ const experiences: ExperienceInterface[] = [
                 'Backend Development',
             ],
             achievements: [
-                'Led the development of comprehensive vehicle management system, adeptly overseeing the seamless management of 4000 vehicles, encompassing booking, parking, and parts requisition',
+                'Led the end-to-end development and flawless management of a 4000-vehicle system, including booking, parking, and parts requisition.',
                 'Restructured Grameenphone vehicle tracking system (VTS) web application, separated frontend and backend.',
-                'Improved website performance by implementing a custom PHP framework, seamlessly integrated with CodeIgniter and Symfony components, and leveraging REST APIs, resulting in a 5-second reduction in page load time.',
+                'Enhanced website performance by integrating a CodeIgniter and Symfony components, utilizing REST APIs, 5-second reduction in page load time.',
                 'Rebuilt live vehicle tracking page to the new design system, which increased user engagement and time spent by 5+%.',
             ]
         }]
@@ -108,9 +107,9 @@ const experiences: ExperienceInterface[] = [
             ],
             achievements: [
                 'Architected and implemented all features required for the car booking platform, resulting in a 15% reduction in car rental costs by streamlining the handling of 260 bookings in under one year.',
-                'Develop a Hospital Enterprise Resource Planning (ERP) system in collaboration with a team of 9.',
-                'Created a comprehensive out-patient (Emergency) ticketing system, managing 3000+ daily patient records, resulting in streamlined operations and enhanced efficiency.',
-                'Collaborated with 3 others developer to develop a Inventory Management System. Implemented (First-in first-out) FIFO to reduce risk of obsolescence and spoilage',
+                'Developed a Hospital Enterprise Resource Planning (ERP) system in collaboration with a team of 9',
+                'Created a comprehensive out-patient (Emergency) ticketing system, handling 3000+ daily patient records, resulting in streamlined operations and enhanced efficiency',
+                'Collaborated with 3 other developers to develop an Inventory Management System. Implemented (First-in first-out) FIFO to reduce the risk of obsolescence and spoilage',
                 'Developed over 10 WordPress plugins, enhancing website functionality and user experience, resulting in increased user engagement and improved site performance.'
             ]
         }]

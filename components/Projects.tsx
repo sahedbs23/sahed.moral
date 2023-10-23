@@ -16,7 +16,7 @@ const Projects = () => {
                     />
                 </div>
 
-                <ul className="flex flex-col gap-8 items-center justify-center list-none mt-8">
+                <ul className="flex flex-col gap-4 md:gap-8 items-center justify-center list-none mt-8 divide-y ">
                     {PROJECTS.map((proj, idx) => (
                         <ProjectCard
                             key={idx}

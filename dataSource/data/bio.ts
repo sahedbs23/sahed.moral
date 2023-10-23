@@ -1,4 +1,4 @@
 const Bio = {
-    description: 'A Full Stack Developer building the backend and front-end of web applications that leads intricate business needs into seamless digital solutions'
+    description: `A passionate Full Stack Developer crafting the backend and front-end of web applications, transforming complex business requirements into elegant digital solutions`
 }
 export default Bio;

@@ -83,12 +83,12 @@ const Navbar = () => {
                 </section>
             {
                 !show && (
-                    <section className="block md:hidden pb-6 border-solid border-t border-[#eee] transition-all duration-[.3s]">
-                        <div className="w-full sm-menu">
-                            <ul className="flex flex-col gap-0 justify-items-end items-end last:border-none ">
+                    <section className="block md:hidden  transition-all duration-[.3s]">
+                        <div className="sm-menu">
+                            <ul className="flex flex-col items-end justify-items-end divide-y border-solid border-t border-[#eee]">
                                 {
                                     menus.map(m => (
-                                        <li className="hidden md:block" key={m.text}>
+                                        <li className="w-full text-right px-3 py-6 md:hidden block" key={m.text}>
                                             <Link className="hover:text-purple" target={m.target}
                                                   href={m.link}>{m.text}</Link>
                                         </li>

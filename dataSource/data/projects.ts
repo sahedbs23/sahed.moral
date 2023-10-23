@@ -5,7 +5,7 @@ export const PROJECTS: ProjectCardInterface[] = [
         title: "1. 123RF.COM",
         description: `123RF.COM is a royalty free stock photo agency with more than <i>28 millions</i> active users.
             As a full stack web application developer <span class="text-black">led the backend development</span> of checkout team in a distributed architecture.
-            Also, collaborated with a team of 5 Front-end to deliver <a class="text-purple" href="https://www.123rf.com/products/" target="_blank">pricing</a> and <a class="text-purple" target="_blank" href="https://www.123rf.com/purchase/?pkg=credits&plan=30&po=pricing">checkout page</a>.`,
+            Also, collaborated with a team of 5 Front-end developers to deliver <a class="text-purple" href="https://www.123rf.com/products/" target="_blank">pricing</a> and <a class="text-purple" target="_blank" href="https://www.123rf.com/purchase/?pkg=credits&plan=30&po=pricing">checkout page</a>.`,
         link: "https://www.123rf.com",
         imgUrl: "https://s3.tebi.io/sahed/123rf.com.png",
         role: "As a result added support for new payment gateways and increased annual revenue by 15%.",
@@ -48,24 +48,23 @@ export const PROJECTS: ProjectCardInterface[] = [
         ]
     },
     {
-        title: "4. Fosoli",
-        description: "App-based platform offering advisory service for the farmers. ",
+        title: "4. Fosholi.COM",
+        description: `I served as a Full-stack Developer at FOSHOLI.COM, a platform empowering 2.6 million Bangladeshi farmers with crop advisory services, disease reporting, pesticide recommendations, and real-time weather updates within a scrum team`,
         role: "Full stack developer",
         link: "https://play.google.com/store/apps/details?id=bd.gov.dgfood.fps&hl=en&gl=US&pli=1",
         imgUrl: "https://s3.tebi.io/sahed/fosholi.com.png",
         technologies: [
             "PHP", "Laravel", "Symfony",
-            "React", "Redux", "EC2",
+            "React", "Redux", 'Nginx', "EC2",
             "PostgresSQL", "REST APIs", "Firebase",
             "Jenkins", "Memcached", "RabbitMQ",
             "Blade", "Eloquent","CMS",
-
         ]
     },
     {
         title: "5. Abbvie Pro LMS",
         role: "LMS Developer",
-        description: "Learning platform for Abbvie Pro internal medical professionals",
+        description: `As an Offshore Lead Learning Management Developer at AbbVie, I led the development of AbbviePro LMS for internal medicine professionals. This collaborative effort involved Brain Station 51 and the AbbVie Germany team. The LMS, integrated with Adobe Experience Manager (AEM), effectively serves over 5,000 medical professionals in 10 countries across Europe and North America`,
         link: "https://www.abbviepro.com/",
         imgUrl: "https://s3.tebi.io/sahed/abbviepro.com.png",
         technologies: [
@@ -108,6 +107,6 @@ export const PROJECTS: ProjectCardInterface[] = [
         technologies: [
             "PHP", "Symfony", "Oracle",
             "Redis", "PHPUnit", "PDO",
-            "Git", "Angular", "NPM"]
+            "Git", "Angular", "NPM", 'Eslint']
     }
 ];

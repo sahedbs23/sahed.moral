@@ -49,7 +49,7 @@ const ContainerBlock: React.FC<ContainerBlockInterface> = ({children, ...customM
             </Head>
             <main className="bg-[#fafafa] w-full">
                 <Navbar/>
-                <div className="mb-8 text-2xl">
+                <div className="text-2xl">
                     {children}
                     <Analytics/>
                 </div>

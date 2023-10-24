@@ -19,15 +19,16 @@ const ProjectCard: React.FC<ProjectCardInterface> = ({title,role, description, l
             <div className="flex flex-col gap-10 md:flex-row justify-between items-center">
                 <div className="w-full md:w-1/2 flex flex-col gap-10">
                     <div className="flex flex-col p-2 bg-white rounded group">
-                        <a className="cursor-pointer grayscale-0 hover:filter hover:grayscale" href={link}>
+                        <Link href={link} target="_blank" className="cursor-pointer grayscale-0 hover:filter hover:grayscale">
                             <Image
                                 src={imgUrl}
                                 alt={title}
                                 width="543"
                                 height="305"
                                 priority
+                                className="w-full h-auto object-contain"
                             />
-                        </a>
+                        </Link>
                     </div>
                 </div>
                 <div className="w-full md:w-1/2 flex flex-col gap-8 justify-evenly">

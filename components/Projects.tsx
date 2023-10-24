@@ -7,7 +7,7 @@ import {PROJECTS} from "@/dataSource/data/projects";
 const Projects = () => {
     return (
         <section id="projects" className="bg-[#fafafa] py-16 px-0">
-            <div className="max-w-[120rem] m-auto w-[92%]">
+            <div className="max-w-7xl m-auto w-[92%]">
 
                 <div className="flex flex-col w-full gap-32 justify-items-center items-center pt-32 pb-4">
                     <PageIntro

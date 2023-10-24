@@ -27,6 +27,13 @@ const Footer = () => {
                             ))
                         }
                     </ul>
+                    <ul className="flex flex-row gap-5 text-center">
+                        <li >
+                            <Link href="mailto:moral.sahed@gmail.com" className="hover:text-white">
+                            Email : moral.sahed@gmail.com
+                            </Link>
+                        </li>
+                    </ul>
                 </div>
             </div>
             <div className="w-full text-center py-8 border-white border-t border-solid text-[12px]">

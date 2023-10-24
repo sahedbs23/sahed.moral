@@ -1,10 +1,10 @@
 export const SOCIAL_LINKS = [
-    {
-        link : 'mailto:moral.sahed@gmail.com',
-        text : 'moral.sahed@gmail.com',
-        icon: 'https://s3.tebi.io/sahed/email-icon.png',
-        prefix : 'Email',
-    },
+    // {
+    //     link : 'mailto:moral.sahed@gmail.com',
+    //     text : 'moral.sahed@gmail.com',
+    //     icon: 'https://s3.tebi.io/sahed/email-icon.png',
+    //     prefix : 'Email',
+    // },
     {
         link : 'https://www.linkedin.com/in/sahed-moral',
         text : 'linkedin.com/in/sahed-moral',

@@ -15,11 +15,11 @@ const Navbar = () => {
             link : '/projects',
             target : '_self'
         },
-        {
-            text : 'cv',
-            link : 'https://s3.tebi.io/sahed/Sahed_Moral_CV.pdf',
-            target : '_blank'
-        }
+        // {
+        //     text : 'cv',
+        //     link : 'https://s3.tebi.io/sahed/Sahed_Moral_CV.pdf',
+        //     target : '_blank'
+        // }
     ];
     const onClickMenu = () => {
         setShow(!show);
